@@ -6,7 +6,8 @@ RefuseManualStop=no
 [Timer]
 Persistent=false 
 OnBootSec=80 
-OnCalendar=*:0/10 #Run every 10 minutes
+#Run every 10 minutes
+OnCalendar=*:0/10
 Unit=task-sync.service
 
 [Install]
